@@ -1,0 +1,12 @@
+
+POST http://localhost:9080/demo5/add-rate
+Content-Type: application/json
+Accept: application/json
+
+{
+  "baseCurrencyCode": "PLN",
+  "targetCurrencyCode": "USD",
+  "rate": "0.26"
+}
+
+
